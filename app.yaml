@@ -1,0 +1,5 @@
+runtime: python37 # App Engine のランタイムバージョンを指定します。
+
+handlers:
+- url: /.*
+  script: auto
